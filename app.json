@@ -1,0 +1,16 @@
+{
+  "expo": {
+    "name": "zero-repro",
+    "slug": "zero-repro",
+    "version": "1.0.0",
+    "scheme": "zero-repro",
+    "web": {
+      "bundler": "metro",
+      "output": "static"
+    },
+    "plugins": ["expo-router"],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
