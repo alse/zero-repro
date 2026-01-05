@@ -4,7 +4,7 @@ import { Slot } from "expo-router";
 import { schema } from "../schema";
 
 const zero = new Zero({
-  server: process.env.EXPO_PUBLIC_ZERO_SERVER,
+  server: "http://localhost:4848",
   schema,
   kvStore: "idb",
   userID: "anon",
